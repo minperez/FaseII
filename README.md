@@ -41,17 +41,18 @@ Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
 
 **3. Proceso de Despliegue: Paso a Paso**
 
-1.	Containerización: Empaqueta tu aplicación con un Dockerfile optimizado.
-2.	Validación en CI: Ejecuta pruebas unitarias y de integración automáticas en cada Pull Request.
-3.	Registro y Etiquetado: Envía la imagen al registro (ej. Docker Hub/ECR) usando etiquetas semánticas (ej. v1.0.1).
-4.	Despliegue a Staging: Realiza un despliegue en un entorno de pre-producción para validar configuraciones.
-5.	Despliegue a Producción: Utiliza una estrategia de Blue-Green o Canary para minimizar el tiempo de inactividad.
-6.	Monitoreo y Rollback: Activa alertas en tiempo real y asegúrate de tener un script automatizado para revertir cambios ante errores críticos.
+a. Containerización: Empaqueta tu aplicación con un Dockerfile optimizado.
+b. Validación en CI: Ejecuta pruebas unitarias y de integración automáticas en cada Pull Request.
+c. Registro y Etiquetado: Envía la imagen al registro (ej. Docker Hub/ECR) usando etiquetas semánticas (ej. v1.0.1).
+d. Despliegue a Staging: Realiza un despliegue en un entorno de pre-producción para validar configuraciones.
+e. Despliegue a Producción: Utiliza una estrategia de Blue-Green o Canary para minimizar el tiempo de inactividad.
+f. Monitoreo y Rollback: Activa alertas en tiempo real y asegúrate de tener un script automatizado para revertir cambios ante errores críticos.
 
 
 **4. Uso de Herramientas de Documentación e IA**
 
 El uso de asistentes inteligentes como GitHub Copilot y herramientas de documentación facilita el mantenimiento del despliegue:
+
 •	Documentación de Código: Usa Copilot para generar comentarios JSDoc o Docstrings de manera consistente en tus archivos de configuración.
 •	Generación de READMEs: Solicita a la IA que cree una estructura profesional de README.md que incluya los pasos de despliegue y variables de entorno.
 •	Creación de Scripts: Utiliza la IA para generar archivos de configuración (yaml, tf, json) basados en descripciones de arquitectura.
