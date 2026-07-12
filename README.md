@@ -42,10 +42,15 @@ Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
 **3. Proceso de Despliegue: Paso a Paso**
 
 a. Containerización: Empaqueta tu aplicación con un Dockerfile optimizado.
+
 b. Validación en CI: Ejecuta pruebas unitarias y de integración automáticas en cada Pull Request.
+
 c. Registro y Etiquetado: Envía la imagen al registro (ej. Docker Hub/ECR) usando etiquetas semánticas (ej. v1.0.1).
+
 d. Despliegue a Staging: Realiza un despliegue en un entorno de pre-producción para validar configuraciones.
+
 e. Despliegue a Producción: Utiliza una estrategia de Blue-Green o Canary para minimizar el tiempo de inactividad.
+
 f. Monitoreo y Rollback: Activa alertas en tiempo real y asegúrate de tener un script automatizado para revertir cambios ante errores críticos.
 
 
