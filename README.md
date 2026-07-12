@@ -17,3 +17,44 @@ Hay dos conjuntos de datos: el de entrenamiento y el de prueba.
 
 El conjunto de entrenamiento consta de 3000 filas y 3 columnas.
 El conjunto de prueba consta de 205 filas y 3 columnas.
+
+
+**Manual de Despliegue en la Nube**
+
+1. Requerimientos Técnicos
+Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
+•	Infraestructura como Código (IaC): Herramientas como Terraform o Pulumi para definir recursos.
+•	Gestión de Secretos: Uso de HashiCorp Vault, AWS Secrets Manager o Azure Key Vault.
+•	Entorno de Contenedores: Docker instalado en local y un registro de imágenes (Container Registry).
+•	Control de Versiones: Repositorio en GitHub, GitLab o Bitbucket con una rama principal protegida.
+•	Pipeline CI/CD: Herramientas como GitHub Actions, Jenkins o GitLab CI configuradas.
+
+
+<img width="1356" height="421" alt="image" src="https://github.com/user-attachments/assets/9937a115-f843-42a0-8dcb-abf71010aa4c" />
+
+
+3. Proceso de Despliegue: Paso a Paso
+1.	Containerización: Empaqueta tu aplicación con un Dockerfile optimizado.
+2.	Validación en CI: Ejecuta pruebas unitarias y de integración automáticas en cada Pull Request.
+3.	Registro y Etiquetado: Envía la imagen al registro (ej. Docker Hub/ECR) usando etiquetas semánticas (ej. v1.0.1).
+4.	Despliegue a Staging: Realiza un despliegue en un entorno de pre-producción para validar configuraciones.
+5.	Despliegue a Producción: Utiliza una estrategia de Blue-Green o Canary para minimizar el tiempo de inactividad.
+6.	Monitoreo y Rollback: Activa alertas en tiempo real y asegúrate de tener un script automatizado para revertir cambios ante errores críticos.
+
+
+4. Uso de Herramientas de Documentación e IA
+El uso de asistentes inteligentes como GitHub Copilot y herramientas de documentación facilita el mantenimiento del despliegue:
+•	Documentación de Código: Usa Copilot para generar comentarios JSDoc o Docstrings de manera consistente en tus archivos de configuración.
+•	Generación de READMEs: Solicita a la IA que cree una estructura profesional de README.md que incluya los pasos de despliegue y variables de entorno.
+•	Creación de Scripts: Utiliza la IA para generar archivos de configuración (yaml, tf, json) basados en descripciones de arquitectura.
+•	Actualización Continua: Integra la IA en tu IDE para mantener los manuales actualizados al modificar el código fuente.
+Nota: Siempre revisa los fragmentos de código generados por IA. Aunque son útiles, deben ser validados por un ingeniero para asegurar que cumplan con las políticas de seguridad de la organización.
+
+
+
+
+
+
+
+
+
