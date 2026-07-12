@@ -36,7 +36,7 @@ Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
 •	Pipeline CI/CD: Herramientas como GitHub Actions, Jenkins o GitLab CI configuradas.
 
 
-<img width="1144" height="355" alt="image" src="https://github.com/user-attachments/assets/44b42036-9f7f-4346-b8ad-1da991d978a2" />
+<img width="873" height="271" alt="image" src="https://github.com/user-attachments/assets/aebf6a37-3cd7-42fd-b509-63a04989150a" />
 
 
 **3. Proceso de Despliegue: Paso a Paso**
