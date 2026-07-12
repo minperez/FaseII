@@ -21,7 +21,7 @@ El conjunto de prueba consta de 205 filas y 3 columnas.
 
 # Manual de Despliegue en la Nube
 
-1. Requerimientos Técnicos
+**1. Requerimientos Técnicos**
 
 Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
 
@@ -39,7 +39,7 @@ Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
 <img width="1144" height="355" alt="image" src="https://github.com/user-attachments/assets/44b42036-9f7f-4346-b8ad-1da991d978a2" />
 
 
-3. Proceso de Despliegue: Paso a Paso
+**3. Proceso de Despliegue: Paso a Paso**
 
 1.	Containerización: Empaqueta tu aplicación con un Dockerfile optimizado.
 2.	Validación en CI: Ejecuta pruebas unitarias y de integración automáticas en cada Pull Request.
@@ -49,7 +49,8 @@ Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
 6.	Monitoreo y Rollback: Activa alertas en tiempo real y asegúrate de tener un script automatizado para revertir cambios ante errores críticos.
 
 
-4. Uso de Herramientas de Documentación e IA
+**4. Uso de Herramientas de Documentación e IA**
+
 El uso de asistentes inteligentes como GitHub Copilot y herramientas de documentación facilita el mantenimiento del despliegue:
 •	Documentación de Código: Usa Copilot para generar comentarios JSDoc o Docstrings de manera consistente en tus archivos de configuración.
 •	Generación de READMEs: Solicita a la IA que cree una estructura profesional de README.md que incluya los pasos de despliegue y variables de entorno.
