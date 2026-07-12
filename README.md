@@ -19,7 +19,7 @@ El conjunto de entrenamiento consta de 3000 filas y 3 columnas.
 El conjunto de prueba consta de 205 filas y 3 columnas.
 
 
-**Manual de Despliegue en la Nube**
+# Manual de Despliegue en la Nube
 
 1. Requerimientos Técnicos
 Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
