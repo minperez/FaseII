@@ -54,9 +54,13 @@ f. Monitoreo y Rollback: Activa alertas en tiempo real y asegúrate de tener un 
 El uso de asistentes inteligentes como GitHub Copilot y herramientas de documentación facilita el mantenimiento del despliegue:
 
 •	Documentación de Código: Usa Copilot para generar comentarios JSDoc o Docstrings de manera consistente en tus archivos de configuración.
+
 •	Generación de READMEs: Solicita a la IA que cree una estructura profesional de README.md que incluya los pasos de despliegue y variables de entorno.
+
 •	Creación de Scripts: Utiliza la IA para generar archivos de configuración (yaml, tf, json) basados en descripciones de arquitectura.
+
 •	Actualización Continua: Integra la IA en tu IDE para mantener los manuales actualizados al modificar el código fuente.
+
 Nota: Siempre revisa los fragmentos de código generados por IA. Aunque son útiles, deben ser validados por un ingeniero para asegurar que cumplan con las políticas de seguridad de la organización.
 
 
