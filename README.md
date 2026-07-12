@@ -22,11 +22,17 @@ El conjunto de prueba consta de 205 filas y 3 columnas.
 # Manual de Despliegue en la Nube
 
 1. Requerimientos Técnicos
+
 Antes de iniciar, asegúrate de contar con la infraestructura mínima necesaria:
+
 •	Infraestructura como Código (IaC): Herramientas como Terraform o Pulumi para definir recursos.
+
 •	Gestión de Secretos: Uso de HashiCorp Vault, AWS Secrets Manager o Azure Key Vault.
+
 •	Entorno de Contenedores: Docker instalado en local y un registro de imágenes (Container Registry).
+
 •	Control de Versiones: Repositorio en GitHub, GitLab o Bitbucket con una rama principal protegida.
+
 •	Pipeline CI/CD: Herramientas como GitHub Actions, Jenkins o GitLab CI configuradas.
 
 
